@@ -1,0 +1,100 @@
+h1, h2 {
+    font-family: Work sans, sans-serif;
+}
+body {
+    font-family: sans-serif;
+    background: white;
+    display: inline;
+}
+
+
+
+.mobile-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    color: black;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+.news {
+    border-bottom: 1px solid white;
+}
+
+.wrapper {
+background-color: #555555;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+#mijn_eerste_knop {
+    background-color: red; /* red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#foto_koe {
+    width: 95%;
+    margin: 0 auto;
+}
+#foto_van_de_koe {
+    width: 100%;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -21px;
+
+}

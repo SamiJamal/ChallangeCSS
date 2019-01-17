@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+    <title>Challenge</title>
+    <h1 align="center">Challenge</h1>
+    <h2 align="center">ffe bikkelen om een mooie website</h2>
+</head>
+
+<body>
+
+
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home"class="active">Logo</a>
+        <div id="myLinks">
+            <a href="index.html" class="news">Home</a>
+            <a href="#news" class="news">Archeologie</a>
+            <a href="#news" class="news">Backpacking</a>
+            <a href="#news" class="news">Bergbeklimmen</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <div class="box_een">
+
+                <h4 class="titel_h4">Tis weer lente</h4>
+                <div class="datum_naam">11 januari 2019 | Sami Jamal</div>
+                <p class="tekst_blokje">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                    erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+             Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                    Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+
+            <form method="get" action="Lente.html">
+                <button type="submit" id="mijn_eerste_knop">Read more</button>
+            </form>
+
+            <h4 class="titel_h4">Verder kijken</h4>
+            <div class="datum_naam">11 januari 2019 | Sami Jamal</div>
+            <p class="tekst_blokje">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+
+            <form method="get" action="Verder%20kijken.html">
+                <button type="submit" id="mijn_eerste_knop">Read more</button>
+            </form>
+
+            <h4 class="titel_h4">Backpacking</h4>
+            <div class="datum_naam">11 januari 2019 | Sami Jamal</div>
+            <p class="tekst_blokje">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+
+            <form method="get" action="backpacking.html">
+                <button type="submit" id="mijn_eerste_knop">Read more</button>
+            </form>
+
+            <h4 class="titel_h4"> Wildcamperen</h4>
+            <div class="datum_naam">11 januari 2019 | Sami Jamal</div>
+            <p class="tekst_blokje">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+                erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+
+            <form method="get" action="wildcamperen.html">
+                <button type="submit" id="mijn_eerste_knop">Read more</button>
+            </form>
+
+        </div>
+
+
+
+
+</div>
+    <!-- End smartphone / tablet look -->
+</div>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+
+</html>

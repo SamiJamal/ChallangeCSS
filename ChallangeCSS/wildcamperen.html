@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+    <title>Wildcamperen</title>
+    <h1 align="center">Challenge</h1>
+    <h2 align="center">ffe bikkelen om een mooie website</h2>
+</head>
+<body>
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home"class="active">Logo</a>
+        <div id="myLinks">
+            <a href="index.html" class="news">Home</a>
+            <a href="#news" class="news">Archeologie</a>
+            <a href="#news" class="news">Backpacking</a>
+            <a href="#news" class="news">Bergbeklimmen</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</div>
+
+</body>
+</html>
